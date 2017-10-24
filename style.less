@@ -1,15 +1,17 @@
-@myColor: #1f7eff;
-@myFontSize: 30px;
-@myBorder: 1px solid #1f7eff;
-* {
-	background: black;
+
+
+@myColor: #f58220;
+@myBackground: #dedede;
+
+body {
+	background: darken(@myBackground, 40%);
 }
 
-h1 {
-color: @myColor;
-font-size: @myFontSize;
+h1, h2 {
+     color: lighten(@myColor, 10%);
 }
 
-#myList {
-border: @myBorder;
+p
+{
+    color: lighten(@myColor, 20%);
 }
