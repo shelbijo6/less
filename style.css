@@ -1,2 +1,13 @@
-*{background:#000}h1{color:#1f7eff;font-size:30px}#myList{border:1px solid #1f7eff}
+* {
+	background:#000
+}
+
+h1 {
+	color:#1f7eff;
+	font-size:30px;
+}
+
+#myList {
+	border:1px solid #1f7eff;
+}
 /* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
